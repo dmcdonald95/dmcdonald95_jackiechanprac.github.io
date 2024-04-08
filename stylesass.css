@@ -1,0 +1,63 @@
+header {
+  background-color: #3498db !important;
+  padding: 10px !important;
+  color: #fff !important;
+  font-family: "Comic Sans MS", cursive;
+}
+header h1 {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+nav ul li a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+main {
+  background-color: #fff;
+  padding: 10px;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 24px;
+}
+main .content {
+  margin-bottom: 20px;
+}
+main .sidebar {
+  width: 30%;
+  float: right;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #3498db !important;
+  padding: 5px !important;
+  color: #fff !important;
+  font-family: "Comic Sans MS", cursive;
+}
+footer p {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 22px;
+}
+
+.success-message {
+  background-color: #2ecc71;
+}
+
+.error-message {
+  background-color: #e74c3c;
+}
+
+.message, .success-message, .error-message {
+  padding: 10px;
+  margin-bottom: 10px;
+}
